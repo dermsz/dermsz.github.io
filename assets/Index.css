@@ -1,1 +1,5 @@
 /* Selector {Property; Value:} */
+img:hover {
+    Transition: all 2s
+    transform- scale(1.1)
+}
