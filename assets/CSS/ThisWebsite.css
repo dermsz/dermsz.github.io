@@ -1,4 +1,6 @@
-/* Selector {Property; Value:} */
+/*selector {property: value;}*/
+#div1 {font-family: 'Newsreader', serif;
+		font-size: 150%;}
 
 #nav1 {
 	font-size: 20px;
@@ -7,20 +9,11 @@
 	color: #A6CADF;
 }
 
+
 #list1 {
 	list-style: none;
 }
 
-#div1 {
-	font-family: 'Newsreader', serif;
-		font-size: 150%;}
-img {
-    transition: all 1s;
-}
-
-img:hover {
-    transform: scale(1.1);
-}
 
 footer {
 	text-align: center;

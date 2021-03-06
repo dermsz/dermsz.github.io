@@ -1,0 +1,19 @@
+/*selector {Propert: value;}*/
+#div1 {font-family: 'Newsreader', serif;
+		font-size: 150%;}
+
+#nav1 {
+	font-size: 20px;
+	background-repeat: repeat-x;
+	background-color: rgba(65, 101, 184, 0.5);
+	color: #A6CADF;
+}
+
+
+#list1 {
+	list-style: none;
+}
+
+footer	{
+	text-align: center;
+}
