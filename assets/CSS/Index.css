@@ -17,12 +17,25 @@
 #div1 {
 	font-family: 'Newsreader', serif;
 		font-size: 150%;}
-img {
-    transition: all 1s;
+
+.imagecontainer {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin: 10px;
+justify-content: center;
+
 }
 
 img:hover {
-    transform: scale(1.1);
+    transition: all 1s;
+	transform: scale(1.1);
+}
+
+#imageindex {
+width: 450px;
+height: 450px;
+margin: 10px;
 }
 
 footer {
