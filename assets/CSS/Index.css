@@ -1,25 +1,14 @@
 /* Selector {Property; Value:} */
 
 body{
-	background-image: url("assets\Images\Backdrop.jpg");
+	background-image: url("background.jpg");
+	background-size: cover;
 }
 
-#nav1 {
-	font-size: 20px;
-	background-color: rgba(65, 101, 184, 0.5);
-	width: 300px;
-	color: #A6CADF;
-	box-shadow: 4px 4px 4px #888888;
-	text-transform: uppercase;
-}      
-
-#list1 {
-	list-style: none;	
+title{
+	text-align: center;
 }
 
-#div1 {
-	font-family: 'Newsreader', serif;
-		font-size: 150%;}
 
 .imagecontainer {
 display: flex;
@@ -40,6 +29,17 @@ width: 450px;
 height: 450px;
 margin: 10px;
 }
+
+#nav1 {
+	font-size: 20px;
+	background-color: rgba(65, 101, 184, 0.5);
+	width: 300px;
+	color: #A6CADF;
+	box-shadow: 4px 4px 4px #888888;
+	text-transform: uppercase;
+	list-style: none;
+	display: inline-block;
+}      
 
 footer {
 	text-align: center;
