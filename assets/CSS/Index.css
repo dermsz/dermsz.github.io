@@ -1,5 +1,9 @@
 /* Selector {Property; Value:} */
 
+title{
+	text-align: center;
+}
+
 body{
 	background: url("Background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -7,10 +11,6 @@ body{
 	-o-background-size: cover;
 	background-size: cover
 	}
-
-title{
-	text-align: center;
-}
 
 
 .imagecontainer {
@@ -46,4 +46,5 @@ margin: 10px;
 
 footer {
 	text-align: center;
+	color: white;
 }
