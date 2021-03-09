@@ -1,7 +1,7 @@
 /* Selector {Property; Value:} */
 
 body{
-	background-image: url("background.jpg");
+	background-image: url("assets/CSS/background.jpg");
 	background-size: cover;
 }
 
