@@ -31,6 +31,7 @@ img:hover {
 width: 450px;
 height: 450px;
 margin: 10px;
+box-shadow: 4px 4px 4px #A18282;
 }
 
 #nav1 {
