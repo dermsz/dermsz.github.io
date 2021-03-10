@@ -12,6 +12,7 @@ h1 {
 hr {
 	border-color: rgb(60, 62, 65);
 	border-width: 5px;
+	max-width: 650px;
 }
 
 body{
@@ -53,6 +54,28 @@ box-shadow: 4px 4px 4px #A18282;
 	list-style: none;
 	display: inline-block;
 }     
+
+.buttoncontainer {
+	align-self: center;
+}
+
+.button {
+	text-align-last: center;
+	padding: 1rem 2rem;
+	align-items: center;
+	border-radius: 100px;
+	text-transform: uppercase;
+	background-color: rgb(8, 123, 151);
+	font-weight: 700;
+	border-color: rgb(8, 123, 151);
+}
+
+.buttonprimary:hover	{
+	background-color: darkgray;
+	border-color: darkgray;
+	border-width: 8px;
+
+}
 
 footer {
 	text-align: center;
