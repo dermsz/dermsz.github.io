@@ -1,7 +1,12 @@
 /* Selector {Property; Value:} */
 
-title{
-	text-align: center;
+* {
+	font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+	text-align-last: center;
+	bor
 }
 
 body{
@@ -19,7 +24,6 @@ flex-wrap: wrap;
 flex-direction: row;
 margin: 40px;
 justify-content: center;
-
 }
 
 img:hover {
@@ -43,7 +47,7 @@ box-shadow: 4px 4px 4px #A18282;
 	text-transform: uppercase;
 	list-style: none;
 	display: inline-block;
-}      
+}     
 
 footer {
 	text-align: center;
