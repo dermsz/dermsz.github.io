@@ -9,6 +9,11 @@ h1 {
 	font-size: 100px;
 }
 
+hr {
+	border-color: rgb(60, 62, 65);
+	border-width: 5px;
+}
+
 body{
 	background: url("Background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
