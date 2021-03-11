@@ -57,6 +57,7 @@ box-shadow: 4px 4px 4px #A18282;
 
 .buttoncontainer {
 	align-self: center;
+	min-height:auto
 }
 
 .button {
@@ -68,6 +69,7 @@ box-shadow: 4px 4px 4px #A18282;
 	background-color: rgb(8, 123, 151);
 	font-weight: 700;
 	border-color: rgb(8, 123, 151);
+	min-height: 80px;
 }
 
 .buttonprimary:hover	{
