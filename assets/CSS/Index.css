@@ -99,6 +99,16 @@ box-shadow: 4px 4px 4px darkgray;
 	border-width: 8px;
 }
 
+.linkedinlink{
+	list-style: none;
+	text-align: center;
+}
+
+.linkedinimage{
+	width: 350px;
+	height: 200px;
+}
+
 footer {
 	text-align: center;
 	color: white;
