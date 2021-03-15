@@ -23,6 +23,17 @@ body{
 	background-size: cover
 	}
 
+.webtextexperience{
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 120%;
+}
+
+.webtextthiswebsite{
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 120%;
+}
 
 .imagecontainer {
 display: flex;
