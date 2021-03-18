@@ -23,6 +23,26 @@ body{
 	background-size: cover
 	}
 
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
 .webtextexperience{
 	margin-right: 150px;
 	margin-left: 150px;
@@ -97,6 +117,14 @@ box-shadow: 4px 4px 4px darkgray;
 	background-color: darkgray;
 	border-color: darkgray;
 	border-width: 8px;
+}
+
+#ImagesExperience {
+	justify-content: center;
+	width: 450px;
+	height: 450px;
+	margin: 10px;
+	box-shadow: 4px 4px 4px darkgray;
 }
 
 .linkedinlink{
