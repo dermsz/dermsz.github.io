@@ -41,8 +41,22 @@ body{
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (-webkit-min-device-pixel-ratio: 3) .webtextthiswebsite{ 
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 100%;
+}
 
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) .webtextexperience{ 
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 100%;
 }
 
 /* ----------- Galaxy S6 ----------- */
@@ -51,8 +65,22 @@ body{
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
+  and (-webkit-device-pixel-ratio: 4) .webtextthiswebsite{
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 100%;
+}
 
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) .webtextexperience{
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 100%;
 }
 
 .imagecontainer {
