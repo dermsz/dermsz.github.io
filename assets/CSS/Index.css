@@ -15,6 +15,19 @@ hr {
 	max-width: 650px;
 }
 
+/* first page layout*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px){
+	.introtext {
+		font-size: 50px
+		margin-right: 120px;
+		margin-left: 120px;
+	}
+	hr {
+		max-width: 150px;
+		margin-left: 111px;
+	}
+}
+
 body{
 	background: url("Background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -29,60 +42,55 @@ body{
 	font-size: 120%;
 }
 
+/* ----------- Mobile ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) { 
+
+	h1 {
+		font-size: 45px;
+		text-align: left;
+		margin-left: 1px;
+		margin-right: 100px;
+	}
+	body {
+		margin: auto 0;
+	}
+
+	.webtextexperience { 
+  		margin-right: 110px;
+		margin-left: 10px;
+		font-size: 100%;
+	}
+}
+
 .webtextthiswebsite{
 	margin-right: 150px;
 	margin-left: 150px;
 	font-size: 120%;
 }
 
-/* ----------- iPhone X ----------- */
+/* ----------- Mobile ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) .webtextthiswebsite{ 
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 100%;
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) { 
+
+	h1 {
+		font-size: 40px;
+		text-align: left;
+		margin-left: 1px;
+		margin-right: 100px;
+	}
+	body {
+		margin: auto 0;
+	}
+
+	.webtextthiswebsite { 
+  		margin-right: 110px;
+		margin-left: 10px;
+		font-size: 100%;
+	}
 }
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) .webtextexperience{ 
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 100%;
-}
-
-/* ----------- Galaxy S6 ----------- */
-
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) .webtextthiswebsite{
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 100%;
-}
-
-/* ----------- Galaxy S6 ----------- */
-
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) .webtextexperience{
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 100%;
-}
-
 .imagecontainer {
 display: flex;
 flex-wrap: wrap;
@@ -118,6 +126,12 @@ box-shadow: 4px 4px 4px darkgray;
   height: 200px;
   position: relative;
   border: none;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px){
+	.container {
+		margin-left: 50px;
+	}
 }
 
 .center {
