@@ -20,7 +20,7 @@ hr {
 /* mobile page layout*/
 @media only screen and (min-device-width: 360px) and (max-device-width: 812px){
 	.introtext {
-		font-size: 50px
+		font-size: 50px;
 		margin-right: 120px;
 		margin-left: 120px;
 	}
