@@ -1,8 +1,10 @@
-/* Selector {Property; Value:} */
+/*fonts for all pages*/
 
 * {
 	font-family: 'Rubik', sans-serif;
 }
+
+/*headings on pages*/
 
 h1 {
 	text-align-last: center;
@@ -15,7 +17,7 @@ hr {
 	max-width: 650px;
 }
 
-/* first page layout*/
+/* mobile page layout*/
 @media only screen and (min-device-width: 360px) and (max-device-width: 812px){
 	.introtext {
 		font-size: 50px
@@ -26,8 +28,14 @@ hr {
 		max-width: 150px;
 		margin-left: 111px;
 	}
+
+	.linkedinimage{
+		width: 30vh;
+		height: 15vh;
+	}
 }
 
+/*background for all pages*/
 body{
 	background: url("Background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -35,16 +43,14 @@ body{
 	-o-background-size: cover;
 	background-size: cover
 	}
-
+/* text for the ecxperience page*/
 .webtextexperience{
 	margin-right: 150px;
 	margin-left: 150px;
 	font-size: 120%;
 }
 
-/* ----------- Mobile ----------- */
-
-/* Portrait and Landscape */
+/* mobile page layout*/
 @media only screen and (min-device-width: 360px) and (max-device-width: 812px) { 
 
 	h1 {
@@ -62,17 +68,21 @@ body{
 		margin-left: 10px;
 		font-size: 100%;
 	}
+
+	.linkedinimage{
+		width: 30vh;
+		height: 15vh;
+	}
 }
 
+/* Formatting for the text on this website page*/
 .webtextthiswebsite{
 	margin-right: 150px;
 	margin-left: 150px;
 	font-size: 120%;
 }
 
-/* ----------- Mobile ----------- */
-
-/* Portrait and Landscape */
+/* mobile page layout*/
 @media only screen and (min-device-width: 360px) and (max-device-width: 812px) { 
 
 	h1 {
@@ -90,7 +100,14 @@ body{
 		margin-left: 10px;
 		font-size: 100%;
 	}
+
+	.linkedinimage{
+		width: 30vh;
+		height: 15vh;
+	}
 }
+
+/*images on the first*/
 .imagecontainer {
 display: flex;
 flex-wrap: wrap;
@@ -121,13 +138,13 @@ box-shadow: 4px 4px 4px darkgray;
 	list-style: none;
 	display: inline-block;
 }     
-
+/*button container and positioning*/
 .container {
   height: 200px;
   position: relative;
   border: none;
 }
-
+/*mobile formatting for the button alignment*/
 @media only screen and (min-device-width: 360px) and (max-device-width: 812px){
 	.container {
 		margin-left: 50px;
@@ -142,7 +159,7 @@ box-shadow: 4px 4px 4px darkgray;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
+/*button for the main page*/
 .button {
 	text-align-last: center;
 	padding: 1rem 2rem;
@@ -160,7 +177,7 @@ box-shadow: 4px 4px 4px darkgray;
 	border-color: darkgray;
 	border-width: 8px;
 }
-
+/*not currently being used*/
 #ImagesExperience {
 	justify-content: center;
 	width: 450px;
@@ -168,15 +185,15 @@ box-shadow: 4px 4px 4px darkgray;
 	margin: 10px;
 	box-shadow: 4px 4px 4px darkgray;
 }
-
+/*linked in details for the this website page*/
 .linkedinlink{
 	list-style: none;
 	text-align: center;
 }
 
 .linkedinimage{
-	width: 350px;
-	height: 200px;
+	width: 35vh;
+	height: 20vh;
 }
 
 footer {
