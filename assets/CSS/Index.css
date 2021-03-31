@@ -133,7 +133,8 @@ box-shadow: 4px 4px 4px darkgray;
 	text-transform: uppercase;
 	list-style: none;
 	display: inline-block;
-}     
+}    
+
 /*button container and positioning*/
 .container {
   height: 200px;
