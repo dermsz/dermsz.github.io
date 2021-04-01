@@ -193,6 +193,11 @@ box-shadow: 4px 4px 4px darkgray;
 	height: 20vh;
 }
 
+.uselesslist{
+	margin: 10px;
+	box-shadow: 4px 4px 4px darkgray;
+}
+
 footer {
 	text-align: center;
 	color: white;
