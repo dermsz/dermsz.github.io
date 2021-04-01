@@ -11,6 +11,11 @@ h1 {
 	font-size: 100px;
 }
 
+h2 {
+	text-align-last: left;
+	font-size: 50px;
+}
+
 hr {
 	border-color: rgb(60, 62, 65);
 	border-width: 5px;
