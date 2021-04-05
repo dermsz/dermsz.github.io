@@ -140,6 +140,17 @@ box-shadow: 4px 4px 4px darkgray;
 	display: inline-block;
 }    
 
+.uselesslist{
+	background-color: darkgray;
+	border-color: darkgray;
+	margin: 10px;
+	box-shadow: 4px 4px 4px darkgray;
+}
+
+.uselesslistentry{
+	list-style: none;
+}
+
 /*button container and positioning*/
 .container {
   height: 200px;
@@ -196,11 +207,6 @@ box-shadow: 4px 4px 4px darkgray;
 .linkedinimage{
 	width: 35vh;
 	height: 20vh;
-}
-
-.uselesslist{
-	margin: 10px;
-	box-shadow: 4px 4px 4px darkgray;
 }
 
 footer {
