@@ -140,15 +140,9 @@ box-shadow: 4px 4px 4px darkgray;
 	display: inline-block;
 }    
 
-.uselesslist{
+#uselesslistentry{
 	background-color: darkgray;
-	border-color: darkgray;
 	margin: 10px;
-	box-shadow: 4px 4px 4px darkgray;
-}
-
-.uselesslistentry{
-	list-style: none;
 }
 
 /*button container and positioning*/
