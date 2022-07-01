@@ -20,4 +20,4 @@ function addToList() {
     }
 }
 
-button.addEventListener("click", addToList)
+button.addEventListener("click", addToList);
