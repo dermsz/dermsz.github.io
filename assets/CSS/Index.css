@@ -108,26 +108,8 @@ body{
 	}
 }
 
-/*images on the first*/
-.imagecontainer {
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-margin: 40px;
-justify-content: center;
-}
 
-img:hover {
-    transition: all 1s;
-	transform: scale(1.1);
-}
 
-#imageindex {
-width: 450px;
-height: 450px;
-margin: 10px;
-box-shadow: 4px 4px 4px darkgray;
-}
 
 #nav1 {
 	font-size: 20px;
