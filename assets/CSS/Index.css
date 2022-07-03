@@ -4,55 +4,13 @@
 	font-family: 'Rubik', sans-serif;
 }
 
-
-/* mobile page layout*/
-@media only screen and (min-device-width: 360px) and (max-device-width: 812px){
-	.introtext {
-		font-size: 50px;
-		margin-right: 120px;
-		margin-left: 120px;
-	}
-}
-
-/*background for main page*/
-body{
-	background: url("Atmo.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover
-	}
-
-/* mobile page layout*/
-@media only screen and (min-device-width: 360px) and (max-device-width: 812px) { 
-
-	h1 {
-		font-size: 45px;
-		text-align: left;
-		margin-left: 1px;
-		margin-right: 100px;
-	}
-	body {
-		margin: auto 0;
-	}
-}
-
-/* mobile page layout*/
-@media only screen and (min-device-width: 360px) and (max-device-width: 812px) { 
-
-	h1 {
-		font-size: 40px;
-		text-align: left;
-		margin-left: 1px;
-		margin-right: 100px;
-	}
-	body {
-		margin: auto 0;
+.background{
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-270deg,#fcf403, #8cfc03, #03fc9d, #03bafc, #032cfc, #8c03fc, #fc03e8);
+	background-size: 400%, 400%;
+	position: relative;
 	}
 
 
-
-footer {
-	text-align: center;
-	color: white;
-}
