@@ -1,9 +1,9 @@
-section{
+body{
 	width: 100%;
 	height: 100vh;
 	color: #fff;
-	background: linear-gradient(225deg,#03bafc, #032cfc, #8c03fc, #fc03e8);
-	background-size: 100%, 100%;
+	background: linear-gradient(-45deg,#34ebcd, #3496eb, #343aeb, #8f34eb, #eb34d9);
+	background-size: 400%, 400%;
 	position: relative;
 	animation: change 10s ease-in-out infinite;
 	}
@@ -20,7 +20,7 @@ section{
 		padding: 5rem 10rem;
 	}
 
-@keyframes slidein {
+@keyframes change {
 	0%{
 		background-position: 0 50%;
 	}
