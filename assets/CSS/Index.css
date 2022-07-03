@@ -4,23 +4,6 @@
 	font-family: 'Rubik', sans-serif;
 }
 
-/*headings on pages*/
-
-h1 {
-	text-align-last: center;
-	font-size: 100px;
-}
-
-h2 {
-	text-align-last: left;
-	font-size: 50px;
-}
-
-hr {
-	border-color: rgb(60, 62, 65);
-	border-width: 5px;
-	max-width: 650px;
-}
 
 /* mobile page layout*/
 @media only screen and (min-device-width: 360px) and (max-device-width: 812px){
@@ -29,14 +12,9 @@ hr {
 		margin-right: 120px;
 		margin-left: 120px;
 	}
-
-	.linkedinimage{
-		width: 30vh;
-		height: 15vh;
-	}
 }
 
-/*background for all pages*/
+/*background for main page*/
 body{
 	background: url("Atmo.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -44,12 +22,6 @@ body{
 	-o-background-size: cover;
 	background-size: cover
 	}
-/* text for the ecxperience page*/
-.webtextexperience{
-	margin-right: 150px;
-	margin-left: 150px;
-	font-size: 120%;
-}
 
 /* mobile page layout*/
 @media only screen and (min-device-width: 360px) and (max-device-width: 812px) { 
@@ -63,24 +35,6 @@ body{
 	body {
 		margin: auto 0;
 	}
-
-	.webtextexperience { 
-  		margin-right: 110px;
-		margin-left: 10px;
-		font-size: 100%;
-	}
-
-	.linkedinimage{
-		width: 30vh;
-		height: 15vh;
-	}
-}
-
-/* Formatting for the text on this website page*/
-.webtextthiswebsite{
-	margin-right: 150px;
-	margin-left: 150px;
-	font-size: 120%;
 }
 
 /* mobile page layout*/
@@ -96,96 +50,7 @@ body{
 		margin: auto 0;
 	}
 
-	.webtextthiswebsite { 
-  		margin-right: 110px;
-		margin-left: 10px;
-		font-size: 100%;
-	}
 
-	.linkedinimage{
-		width: 30vh;
-		height: 15vh;
-	}
-}
-
-
-
-
-#nav1 {
-	font-size: 20px;
-	background-color: rgba(169, 169, 169, 0.8);
-	width: 300px;
-	color: darkgray;
-	box-shadow: 4px 4px 4px darkgray;
-	text-transform: uppercase;
-	list-style: none;
-	display: inline-block;
-}    
-
-#uselesslistentry{
-	background-color: darkgray;
-	margin: 10px;
-	margin-left: 30px;
-	margin-right:30px;
-}
-
-/*button container and positioning*/
-.container {
-  height: 200px;
-  position: relative;
-  border: none;
-}
-/*mobile formatting for the button alignment*/
-@media only screen and (min-device-width: 360px) and (max-device-width: 812px){
-	.container {
-		margin-left: 50px;
-	}
-}
-
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-/*button for the main page*/
-.button {
-	text-align-last: center;
-	padding: 1rem 2rem;
-	align-items: center;
-	border-radius: 100px;
-	text-transform: uppercase;
-	background-color: rgb(8, 123, 151);
-	font-weight: 700;
-	border-color: rgb(8, 123, 151);
-	min-height: 80px;
-}
-
-.buttonprimary:hover	{
-	background-color: darkgray;
-	border-color: darkgray;
-	border-width: 8px;
-}
-/*not currently being used*/
-#ImagesExperience {
-	justify-content: center;
-	width: 450px;
-	height: 450px;
-	margin: 10px;
-	box-shadow: 4px 4px 4px darkgray;
-}
-/*linked in details for the this website page*/
-.linkedinlink{
-	list-style: none;
-	text-align: center;
-}
-
-.linkedinimage{
-	width: 35vh;
-	height: 20vh;
-}
 
 footer {
 	text-align: center;
