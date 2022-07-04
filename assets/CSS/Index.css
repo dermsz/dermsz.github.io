@@ -1,9 +1,21 @@
 :root {
-	background-color:#2c2c2e;
+	--clr-neon:#0fa;
+	--clr-background:#2c2c2e;
 	}
 
-a	{
-	color: #fff;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--clr-background);
+	color: var(--clr-neon);
 }
 
 h1 	{
@@ -15,17 +27,22 @@ h1 	{
 
  
  .Welcome-Button {
+		position: relative;
 		border: .1em solid ;
 		padding: .25em 1em;
 		border-radius: .3em;
-		color: #fff;
-		text-shadow:
-			0 0 7px #fff,
-			0 0 10px #fff,
-			0 0 21px #fff,
-			0 0 42px #0fa,
-			0 0 82px #0fa,
-			0 0 92px #0fa,
-			0 0 102px #0fa,
-			0 0 151px #0fa;
+		color: var(--clr-neon);
+		box-shadow: 0 0 0.2em;
+		text-shadow: 0 0 0.2em;	
 	  }
+
+.Welcome-Button::before {
+	content: '';
+	position: absolute;
+	background: violet;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 0;
+	bottom: 0;
+}
