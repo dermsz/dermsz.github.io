@@ -1,6 +1,7 @@
 :root {
 	--clr-neon:#0fa;
 	--clr-background:#2c2c2e;
+	--clr-NeonHover:#dadae0;
 	}
 
 * {
@@ -32,8 +33,8 @@ h1 	{
 		padding: .25em 1em;
 		border-radius: .3em;
 		color: var(--clr-neon);
-		box-shadow: 0 0 0.2em;
-		text-shadow: 0 0 0.2em;	
+		box-shadow: 0 0 0.8em;
+		text-shadow: 0 0 0.8em;	
 	  }
 
 .Welcome-Button::before {
@@ -41,10 +42,18 @@ h1 	{
 	position: absolute;
 	background: var(--clr-neon);
 	top: 120%;
-	left: 0;
-	width: 100%;
-	height: 120%;
+	left: -10%;
+	width: 120%;
+	height: 150%;
 
 	transform: perspective(4.5em) rotateX(42deg) translateZ(.2em) scale(1 , 1.2);
-	filter: blur(.5em);
+	filter: blur(.6em);
+	opacity: 0.9;
 	}
+
+.Welcome-Button:hover {
+	background-color:var(--clr-NeonHover);
+	text-shadow: 0;
+
+
+}
