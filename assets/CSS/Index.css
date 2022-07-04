@@ -1,7 +1,7 @@
 :root {
-	--clr-neon:#0fa;
-	--clr-background:#2c2c2e;
-	--clr-NeonHover:#c2debf;
+	--clr-neon:#28a9c7;
+	--clr-background:#113740;
+	--clr-NeonHover:#3d92a6;
 	}
 
 * {
@@ -30,12 +30,12 @@ h1 	{
  .Welcome-Button {
 	    pointer-events: auto;
 		position: relative;
-		border: .1em solid ;
+		border: var(--clr-neon) .08em solid ;
 		padding: .25em 1em;
 		border-radius: .3em;
 		color: var(--clr-neon);
-		box-shadow: 0 0 0.8em;
-		text-shadow: 0 0 0.8em;	
+		box-shadow: 0 0 0.5em;
+		text-shadow: 0 0 0.5em;	
 	  }
 
 .Welcome-Button::before {
@@ -46,29 +46,33 @@ h1 	{
 	top: 120%;
 	left: -10%;
 	width: 120%;
-	height: 150%;
+	height: 190%;
 
-	transform: perspective(4.5em) rotateX(42deg) translateZ(.2em) scale(1 , 1.2);
+	transform: perspective(4.5em) rotateX(42deg) translateZ(.1em) scale(1 , 1.1);
 	filter: blur(.6em);
 	opacity: 0.9;
 	}
 
-.Welcome-Button::after{
+.Welcome-Button::after {
 	content: '';
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: white;
-	box-shadow: 0 0 2em 0.5em var(--clr-neon);
+	box-shadow: 0 0 1em 0.5em var(--clr-neon);
 	text-shadow: none;
 	opacity: 0;
 	transition: opacity 100ms linear;
 }
 
 .Welcome-Button:hover, .Welcome-Button:focus {
-	background-color:var(--clr-NeonHover);
+	background:var(--clr-NeonHover);
+	color: var(--clr-background);
 	text-shadow: none;
 
+}
+
+.Welcome-Button:hover::after {
+	opacity: 1;
 }
