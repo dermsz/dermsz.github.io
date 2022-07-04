@@ -39,10 +39,12 @@ h1 	{
 .Welcome-Button::before {
 	content: '';
 	position: absolute;
-	background: violet;
-	top: 0;
+	background: var(--clr-neon);
+	top: 120%;
 	left: 0;
-	right: 0;
-	width: 0;
-	bottom: 0;
-}
+	width: 100%;
+	height: 100%;
+
+	transform: perspective(3.5em) rotateX(42deg) translateZ(.2em) scale(1 , 1.2);
+	filter: blur(.5em);
+	}
